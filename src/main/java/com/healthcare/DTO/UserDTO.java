@@ -13,29 +13,29 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class UserDTO {
     private String userId;
-    @NotNull
-    @Size(min = 3,max = 50)
+//    @NotNull
+//    @Size(min = 3,max = 50)
     private String name;
-    @NotNull
-    @Size(min = 5,max = 10)
+//    @NotNull
+//    @Size(min = 5,max = 10)
     private String password;
     private char gender;
     private LocalDate dateOfBirth;
-    @NotNull
-    @Size(min = 10,max = 10)
+//    @NotNull
+//    @Size(min = 10,max = 10)
     private long mobileNo;
     @Email
     private String email;
-    @NotNull
-    @Size(min = 6,max = 6)
+//    @NotNull
+//    @Size(min = 6,max = 6)
     private int pincode;
-    @NotNull
-    @Size(min = 3,max = 20)
+//    @NotNull
+//    @Size(min = 3,max = 20)
     private String city;
-    @NotNull
-    @Size(min = 3,max = 20)
+//    @NotNull
+//    @Size(min = 3,max = 20)
     private String state;
-    @NotNull
-    @Size(min = 3,max = 20)
+//    @NotNull
+//    @Size(min = 3,max = 20)
     private String country;
 }

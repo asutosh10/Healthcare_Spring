@@ -13,18 +13,18 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class CoachDTO {
     private String coachId;
-    @NotNull
-    @Size(min = 3,max = 50)
+//    @NotNull
+//    @Size(min = 3,max = 50)
     private String name;
-    @NotNull
-    @Size(min = 5,max = 10)
+//    @NotNull
+//    @Size(min = 5,max = 10)
     private String password;
     private char gender;
     private LocalDate dateOfBirth;
-    @NotNull
-    @Size(min = 10,max = 10)
+//    @NotNull
+//    @Size(min = 10,max = 10)
     private long mobileNo;
-    @NotNull
-    @Size(min = 3,max = 50)
+//    @NotNull
+//    @Size(min = 3,max = 50)
     private String speciality;
 }
